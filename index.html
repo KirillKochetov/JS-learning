@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+
+</head>
+
+<body>
+  <label>
+    <input type="checkbox" id="boxOne" onchange="alertFunction()" > Show alert
+  </label>
+  
+  <br>
+  <input type="radio" name="r1" value="1" >Option 1
+  <input type="radio" name="r1" value="2" >Option 2
+  <input type="radio" name="r1" value="3" >Option 3
+
+  <button onclick="radioButtonAlert()">Check radio button</button>
+
+  <br>
+
+  <select name="" id="select" onchange="selectorChange()">
+    <option value="">Apple</option>
+    <option value="">Orange</option>
+    <option value="">Banana</option>
+  </select>
+
+  <br>
+
+  <input type="range" min="0" max="50" step="5" oninput="rangeFun()" id="range1">
+  <p id="one"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
